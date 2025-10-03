@@ -20,7 +20,7 @@ public class githubTest
 	@Test(priority=3)
 	public void validateGitTestC() 
 	{
-		System.out.println("This is new testcase testcase C");
+		System.out.println("Accepting merge conflict");
 	}
 
 }
