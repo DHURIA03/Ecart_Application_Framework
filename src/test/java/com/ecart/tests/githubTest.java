@@ -1,6 +1,6 @@
 package com.ecart.tests;
 
-import org.testng.Assert;
+
 import org.testng.annotations.Test;
 
 public class githubTest 
@@ -20,7 +20,7 @@ public class githubTest
 	@Test(priority=3)
 	public void validateGitTestC() 
 	{
-		System.out.println("This is new testcase testcase C");
+		System.out.println("This is new testcase testcase C modified at branch Ashish");
 	}
 
 }
