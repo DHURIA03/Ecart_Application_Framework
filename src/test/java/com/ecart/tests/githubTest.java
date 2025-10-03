@@ -16,5 +16,11 @@ public class githubTest
 	{
 		System.out.println("This is new testcase testcase B");
 	}
+	
+	@Test(priority=2)
+	public void validateGitTestC() 
+	{
+		System.out.println("This is new testcase testcase C");
+	}
 
 }
