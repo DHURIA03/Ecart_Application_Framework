@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EcartSuite">
+  <test name="EcartTests">
+    <classes>
+      <class name="com.ecart.tests.LoginTest"/> 
+      <class name="com.ecart.tests.ProductTest"/> 
+      <class name="com.ecart.tests.CheckoutTest"/> 
+     </classes>
+  </test>
+</suite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EcartSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EcartTests(failed)">
+    <classes>
+      <class name="com.ecart.tests.ProductTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUpData"/>
+          <include name="validateSortFunctionalitySortByValueDecending"/>
+          <include name="loginTest"/>
+          <include name="validateSortFunctionalitySortByNameDescending"/>
+          <include name="tearDown"/>
+          <include name="addProductsInCart"/>
+          <include name="validateSortFunctionalitySortByValueAscending"/>
+          <include name="validateProductsList"/>
+          <include name="validateSortFunctionalitySortByNameAscending"/>
+        </methods>
+      </class> <!-- com.ecart.tests.ProductTest -->
+      <class name="com.ecart.tests.CheckoutTest">
+        <methods>
+          <include name="validateCalculation"/>
+          <include name="setUpData"/>
+          <include name="setUp"/>
+          <include name="removeProductsFromCart"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.ecart.tests.CheckoutTest -->
+    </classes>
+  </test> <!-- EcartTests(failed) -->
+</suite> <!-- Failed suite [EcartSuite] -->
