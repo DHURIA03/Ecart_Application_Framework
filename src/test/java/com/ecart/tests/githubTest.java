@@ -8,9 +8,13 @@ public class githubTest
 	@Test(priority=1)
 	public void validateGitTestA() 
 	{
-		
 		System.out.println("This is new testcase");
-		
+	}
+	
+	@Test(priority=2)
+	public void validateGitTestB() 
+	{
+		System.out.println("This is new testcase testcase B");
 	}
 
 }
